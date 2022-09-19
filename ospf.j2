@@ -1,5 +1,8 @@
 ipv6 unicast-routing
-
+!
+interface Loopback100
+ ip address 1.1.1.1
+!
 interface Loopback0
  description {{ int_description }}
  ip address {{ ipv4_loopback }} 255.255.255.255
